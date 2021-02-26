@@ -17,10 +17,10 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 	double objective;
-	cout << "Enter the facal length of your telescope objective in mm: ";
+	cout << "Enter the focal length of your telescope objective in mm: ";
 	cin >> objective;
 	double eps[LIMIT];
-	cout << "Enter the facal lengths, in mm, of " << LIMIT << " eyepieces:\n";
+	cout << "Enter the focal lengths, in mm, of " << LIMIT << " eyepieces:\n";
 	for (int i = 0; i < LIMIT; i++)
 	{
 		cout << "Eyepiece #" << i + 1 << ": ";
